@@ -2,6 +2,6 @@
 
 set -e
 
-echo
+docker pull siddeshwarsid/simple-python-flask-app
 
-echo
+docker run -d -p 5000:5000 siddeshwarsid/simple-python-flask-app
